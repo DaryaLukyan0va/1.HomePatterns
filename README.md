@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/av866h370uv3djfv?svg=true)](https://ci.appveyor.com/project/DaryaLukyan0va/2-3-1-home-patterns)
