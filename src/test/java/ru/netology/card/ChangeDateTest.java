@@ -39,7 +39,7 @@ public class ChangeDateTest {
         $(".button").click();
         $("[data-test-id='replan-notification'] .notification__content").shouldBe(Condition.visible).shouldHave(Condition.text("У вас уже запланирована встреча на другую дату. Перепланировать?"));
         $(".notification_status_error .button").click();
-        $(withText("Ура!")).shouldBe(Condition.visible);
+        $(withText("Успешно!")).shouldBe(Condition.visible);
         $("[data-test-id='success-notification'] .notification__content").shouldBe(Condition.visible).shouldHave(Condition.exactText("Встреча успешно запланирована на " + secondDate));
     }
 }
